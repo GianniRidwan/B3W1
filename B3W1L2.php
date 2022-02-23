@@ -5,29 +5,32 @@
 </head>
 <body>
 
-<?php 
-echo "Hello World!<br>";
+<h1>
+	<?php 
+		echo "Hello World!";
 
-define("greet", "Hello World!<br>");
-echo greet;
+		define("joe", "Hello World!");
+		echo joe;
 
-$learn = "Learning PHP";
-$learn = greet;
-echo $learn;
-
-?>
+		$joejoe = "Learning PHP";
+		$joejoe = joe;
+		echo joe;
+	?>
+</h1>
 
 <h1>
 	<?php 
+		$joe = "Hello ";
+		$joejoe = "World!";
+		echo $joe, $joejoe;
+	 ?>
+</h1>
 
-		$hello = "Hello";
-		$world = "World!";
-		echo $hello . " " . $world;
-
-		$array = ["Hello", "World!"];
-		echo $array[0] . " " . $array[1];
-
-	?>
+<h1>
+	<?php 
+		$array = ["Hello ", "World!"];
+		echo $array[0] . $array[1];
+	 ?>
 </h1>
 
 </body>
